@@ -7,7 +7,7 @@ const jwt=require('jsonwebtoken');
 
 
 
-exports.Signup=async(req,res,next)=>{
+exports.signUp=async(req,res,next)=>{
     try{
         const {
             firstName,
