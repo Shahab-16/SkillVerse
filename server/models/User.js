@@ -55,9 +55,6 @@ const userSchema=new mongoose.Schema({
     token:{
         type:String,
     },
-    image:{
-        type:String,
-    }
 })
 
 

@@ -20,6 +20,9 @@ const profileSchema=new mongoose.Schema({
     dreamCompany:{
         type:String,
     },
+    image:{
+        type:String,
+    }
 })
 
 module.exports=mongoose.model(Profile,'profileSchema');
