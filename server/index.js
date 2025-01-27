@@ -5,7 +5,6 @@ require('dotenv').config();
 
 const app=express();
 
-//TODO
 //connectDB();
 app.get('/',(req,res)=>{
     res.send('hello world');

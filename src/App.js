@@ -1,9 +1,12 @@
 import './App.css';
-
+import { Routes,Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
 function App() {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
-      <h1 className="text-3xl font-bold text-center">WELCOME TO SKILLVERSE</h1>
+    <div className='bg-richblack-900 min-h-screen'>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+      </Routes>
     </div>
   );
 }
